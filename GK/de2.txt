@@ -1,0 +1,6 @@
+cho 2 lớp entity order, orderDetail
+Order có orderId long, employeeId String, details List<OrderDetail>,createDate Date
+OrderDetail quantity double ,unitPrice double, productId long, detailsId long
+tạo ngẫu nhiên 100 đơn, mỗi 50 đơn thuộc về một employee, số lượng sản phẩm từ 10 - 100, đơn giả từ 1.000 - 10.000
+a) Tính toán tổng tiền của các đơn, tính toán tổng tiền của từng nhân viên, dùng executor service, với 2 tiến trình
+b) dùng data tạo ở câu 1 để thêm vào mongodb, và đồng thời thêm data vào file tên là data.json
